@@ -28,6 +28,8 @@
             <string>xV = 0;
 yV = 0;
 walkSpeed = 0.5;
+w = sprite_get_width(spr_character);
+h = sprite_get_height(spr_character);
 </string>
           </argument>
         </arguments>
@@ -50,10 +52,34 @@ walkSpeed = 0.5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x += xV;
-y += yV;
+            <string>if (place_meeting(x + xV, y, obj_wall) = false) 
+    {
+    x += xV;
+    }
+else
+    {
+    if (xV &gt; 0) vDir = 1;
+    else vDir = -1;
 
-xV *= 0.8;
+    while (place_meeting(x + vDir, y, obj_wall) = false) x += vDir;
+    xV = 0
+    }
+
+if (place_meeting(x, y + yV, obj_wall) = false) 
+    {
+    y += yV;
+    }
+else
+    {
+    if (yV &gt; 0) vDir = 1;
+    else vDir = -1;
+
+    while (place_meeting(x, y + vDir, obj_wall) = false) y += vDir;
+    yV = 0
+    
+    }
+
+xV *= 0.8;   
 yV *= 0.8;
 
 </string>

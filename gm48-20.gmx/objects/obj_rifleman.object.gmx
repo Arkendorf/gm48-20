@@ -294,7 +294,7 @@ blocked = 1;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*1.5</string>
+            <string>room_speed *3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -342,7 +342,7 @@ blocked = 1;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>50</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -506,7 +506,7 @@ blocked = 1;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>400</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -566,7 +566,7 @@ blocked = 1;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>50</string>
+            <string>200</string>
           </argument>
           <argument>
             <kind>4</kind>

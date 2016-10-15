@@ -8,9 +8,6 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <objects name="objects">
-    <object>objects\test</object>
-  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>

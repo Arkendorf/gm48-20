@@ -5,23 +5,12 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\spr_character</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_playerbullet</sprite>
-    <sprite>sprites\spr_bandit</sprite>
-  </sprites>
+  <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_character</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_playerbullet</object>
-    <object>objects\obj_bandit</object>
+    <object>objects\Test</object>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_level</room>
-  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

@@ -20,6 +20,7 @@
     <object>objects\obj_playerbullet</object>
     <object>objects\obj_bandit</object>
     <object>objects\obj_enemybullet</object>
+    <object>objects\obj_spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>

@@ -29,6 +29,10 @@
       <sprite>sprites\spr_pillar1</sprite>
       <sprite>sprites\spr_pillar2</sprite>
       <sprite>sprites\spr_shingle</sprite>
+      <sprite>sprites\spr_border1</sprite>
+      <sprite>sprites\spr_border2</sprite>
+      <sprite>sprites\spr_ornament1</sprite>
+      <sprite>sprites\spr_ornament2</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -52,6 +56,11 @@
       <object>objects\obj_pillar1</object>
       <object>objects\obj_pillar2</object>
       <object>objects\obj_shingle</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_border1</object>
+      <object>objects\obj_ornament1</object>
+      <object>objects\obj_ornament2</object>
+      <object>objects\obj_border2</object>
     </objects>
   </objects>
   <rooms name="rooms">

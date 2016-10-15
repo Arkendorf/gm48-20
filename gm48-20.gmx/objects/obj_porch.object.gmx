@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
-if (place_meeting(x, y+32, obj_solid) = false and place_meeting(x, y+32, obj_porch) = false)
+if (place_meeting(x, y+32, obj_wall) = false and place_meeting(x, y+32, obj_porch) = false)
     {
     image_index = 1;
     }
-else if (place_meeting(x, y-32, obj_solid) = true)
+else if (place_meeting(x, y-32, obj_wall) = true)
     {
     image_index = 2;
     }

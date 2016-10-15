@@ -5,9 +5,52 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_character</sprite>
+    <sprite>sprites\spr_playerbullet</sprite>
+    <sprites name="ammocount">
+      <sprite>sprites\spr_chamber</sprite>
+      <sprite>sprites\spr_hellchamber</sprite>
+      <sprite>sprites\spr_hudhellbullet</sprite>
+      <sprite>sprites\spr_hudbullet</sprite>
+      <sprite>sprites\spr_indicator</sprite>
+    </sprites>
+    <sprites name="spr_tilegroup">
+      <sprite>sprites\spr_porch</sprite>
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_wall1</sprite>
+      <sprite>sprites\spr_wall2</sprite>
+      <sprite>sprites\spr_wall3</sprite>
+      <sprite>sprites\spr_window1</sprite>
+      <sprite>sprites\spr_window2</sprite>
+      <sprite>sprites\spr_arch1</sprite>
+      <sprite>sprites\spr_arch2</sprite>
+      <sprite>sprites\spr_empty</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_character</object>
+    <object>objects\obj_playerbullet</object>
+    <object>objects\obj_ammocount</object>
+    <objects name="obj_tilegroup">
+      <object>objects\obj_porch</object>
+      <object>objects\obj_solid</object>
+      <object>objects\obj_door</object>
+      <object>objects\obj_wall1</object>
+      <object>objects\obj_wall2</object>
+      <object>objects\obj_wall3</object>
+      <object>objects\obj_window1</object>
+      <object>objects\obj_window2</object>
+      <object>objects\obj_empty</object>
+      <object>objects\obj_arch1</object>
+      <object>objects\obj_arch2</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_level</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

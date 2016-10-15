@@ -102,7 +102,7 @@ active = 0
           <argument>
             <kind>1</kind>
             <string>blocked = 0;
-if collision_line(x,y,obj_character.x,obj_character.y,obj_wall,false,true)
+if collision_line(x,y,obj_character.x,obj_character.y,obj_solid,false,true)
 {
 blocked = 1;
 } 

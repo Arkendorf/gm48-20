@@ -9,6 +9,13 @@
     <sprite>sprites\spr_character</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_playerbullet</sprite>
+    <sprites name="ammocount">
+      <sprite>sprites\spr_chamber</sprite>
+      <sprite>sprites\spr_hellchamber</sprite>
+      <sprite>sprites\spr_hudhellbullet</sprite>
+      <sprite>sprites\spr_hudbullet</sprite>
+      <sprite>sprites\spr_indicator</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,6 +23,7 @@
     <object>objects\obj_character</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_playerbullet</object>
+    <object>objects\obj_ammocount</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>

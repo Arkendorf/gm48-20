@@ -11,7 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>view_hborder[0] = room_height / 2;
-view_vborder[0] = room_width / 2;</code>
+view_vborder[0] = room_width / 2;
+instance_create(0, 0, obj_ammocount);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

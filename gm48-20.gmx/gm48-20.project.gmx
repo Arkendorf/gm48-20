@@ -25,7 +25,6 @@
       <sprite>sprites\spr_window2</sprite>
       <sprite>sprites\spr_arch1</sprite>
       <sprite>sprites\spr_arch2</sprite>
-      <sprite>sprites\spr_empty</sprite>
       <sprite>sprites\spr_pillar1</sprite>
       <sprite>sprites\spr_pillar2</sprite>
       <sprite>sprites\spr_shingle</sprite>
@@ -33,6 +32,10 @@
       <sprite>sprites\spr_border2</sprite>
       <sprite>sprites\spr_ornament1</sprite>
       <sprite>sprites\spr_ornament2</sprite>
+      <sprite>sprites\spr_fence1</sprite>
+      <sprite>sprites\spr_fence2</sprite>
+      <sprite>sprites\spr_emptytrans</sprite>
+      <sprite>sprites\spr_sand</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -50,7 +53,6 @@
       <object>objects\obj_wall3</object>
       <object>objects\obj_window1</object>
       <object>objects\obj_window2</object>
-      <object>objects\obj_empty</object>
       <object>objects\obj_arch1</object>
       <object>objects\obj_arch2</object>
       <object>objects\obj_pillar1</object>
@@ -61,6 +63,10 @@
       <object>objects\obj_ornament1</object>
       <object>objects\obj_ornament2</object>
       <object>objects\obj_border2</object>
+      <object>objects\obj_fence1</object>
+      <object>objects\obj_fence2</object>
+      <object>objects\obj_emptytrans</object>
+      <object>objects\obj_sand</object>
     </objects>
   </objects>
   <rooms name="rooms">

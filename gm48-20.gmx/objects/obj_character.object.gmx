@@ -129,7 +129,7 @@ hellRecharge = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x + xV, y, obj_wall) = false) 
+            <string>if (place_meeting(x + xV, y, obj_solid) = false) 
     {
     x += xV;
     }
@@ -138,11 +138,11 @@ else
     if (xV &gt; 0) vDir = 1;
     else vDir = -1;
 
-    while (place_meeting(x + vDir, y, obj_wall) = false) x += vDir;
+    while (place_meeting(x + vDir, y, obj_solid) = false) x += vDir;
     xV = 0
     }
 
-if (place_meeting(x, y + yV, obj_wall) = false) 
+if (place_meeting(x, y + yV, obj_solid) = false) 
     {
     y += yV;
     }
@@ -151,7 +151,7 @@ else
     if (yV &gt; 0) vDir = 1;
     else vDir = -1;
 
-    while (place_meeting(x, y + vDir, obj_wall) = false) y += vDir;
+    while (place_meeting(x, y + vDir, obj_solid) = false) y += vDir;
     yV = 0
     
     }

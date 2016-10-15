@@ -67,7 +67,7 @@ if y &gt; room_height or y &lt; 0 instance_destroy();
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_wall">
+    <event eventtype="4" ename="obj_solid">
       <action>
         <libid>1</libid>
         <id>603</id>

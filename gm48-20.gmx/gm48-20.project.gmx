@@ -50,7 +50,10 @@
       <object>objects\obj_door</object>
       <object>objects\obj_wall1</object>
       <object>objects\obj_wall2</object>
+      <object>objects\obj_wall5</object>
       <object>objects\obj_wall3</object>
+      <object>objects\obj_wall6</object>
+      <object>objects\obj_wall4</object>
       <object>objects\obj_window1</object>
       <object>objects\obj_window2</object>
       <object>objects\obj_arch1</object>

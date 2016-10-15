@@ -29,11 +29,11 @@
 left = false;
 right = false;
 
-if (place_meeting(x-32, y, obj_wall3) = true or place_meeting(x-32, y, obj_door) = true)
+if (place_meeting(x-32, y, obj_wall6) = true or place_meeting(x-32, y, obj_door) = true)
     {
     left = true;
     }
-if (place_meeting(x+32, y, obj_wall3) = true or place_meeting(x+32, y, obj_door) = true)
+if (place_meeting(x+32, y, obj_wall6) = true or place_meeting(x+32, y, obj_door) = true)
     {
     right = true;
     }

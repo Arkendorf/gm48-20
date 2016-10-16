@@ -43,6 +43,8 @@
     <sprite>sprites\spr_fire</sprite>
     <sprite>sprites\spr_smokeparticle</sprite>
     <sprite>sprites\spr_bitparticle</sprite>
+    <sprite>sprites\spr_bandit</sprite>
+    <sprite>sprites\spr_enemybullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -84,6 +86,20 @@
     <object>objects\obj_fireparticle</object>
     <object>objects\obj_smokeparticle</object>
     <object>objects\obj_bitparticle</object>
+    <objects name="obj_aigroup">
+      <object>objects\obj_bandit</object>
+      <object>objects\obj_rifleman</object>
+      <object>objects\obj_desparado</object>
+      <object>objects\obj_horseman1</object>
+      <object>objects\obj_horseman2</object>
+      <object>objects\obj_enemybullet</object>
+      <object>objects\obj_spawnerbandit</object>
+      <object>objects\obj_spawnerrifleman</object>
+      <object>objects\obj_spawnerdesparado</object>
+      <object>objects\obj_spawnerhorseman1</object>
+      <object>objects\obj_spawnerhorseman2</object>
+    </objects>
+    <object>objects\obj_wave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>

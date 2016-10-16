@@ -93,7 +93,7 @@ alarm[0] = 60;
             <string>draw_set_color(c_black);
 draw_text(view_xview + 10, view_yview + 10, "Wave" + string(global.wave));
 draw_text(view_xview + view_wview - 140 , view_yview + 10, "Next Wave In" + string(global.time))
-draw_text(view_xview + view_wview - 140 , view_yview + 20, "enemys" + string(global.enemys))
+draw_text(view_xview + view_wview - 140 , view_yview + 20, "enemies" + string(global.enemys))
 </string>
           </argument>
         </arguments>

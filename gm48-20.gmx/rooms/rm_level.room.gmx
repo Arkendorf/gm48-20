@@ -1415,6 +1415,7 @@ instance_create(0, 0, obj_loop);</code>
     <instance objName="obj_sand" x="736" y="64" name="inst_44BD15FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sand" x="768" y="64" name="inst_9C403CBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cactus2" x="768" y="64" name="inst_A477CFDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wave" x="0" y="0" name="inst_05CD7924" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

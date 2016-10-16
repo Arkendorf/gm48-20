@@ -1336,7 +1336,8 @@ instance_create(0, 0, obj_ammocount);</code>
     <instance objName="obj_emptytrans" x="1728" y="960" name="inst_196269FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_emptytrans" x="1728" y="928" name="inst_0D172269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wave" x="256" y="480" name="inst_335BEBFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawnerbandit" x="704" y="832" name="inst_84906900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawnerbandit" x="640" y="864" name="inst_172C21E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawnerrifleman" x="1120" y="864" name="inst_776D9496" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

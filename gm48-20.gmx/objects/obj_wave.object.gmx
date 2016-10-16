@@ -26,8 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>global.wave = 1;
-time = 18 + (global.wave*2);
+global.time = 18 + (global.wave*2);
 global.spawn_rateU = 50;
+global.enemys = 0
+global.oldTime = 0
 alarm[0] = 60;
 </string>
           </argument>
@@ -51,12 +53,19 @@ alarm[0] = 60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (time &lt;= 0)
+            <string>if (global.time &lt;= 0) and (global.enemys = 0)
 {
-time = 18 + (global.wave*2);
+global.time = 18 + (global.wave*2);
 global.wave++;
 global.spawn_rateU -=5;
-}else time--;
+}else 
+global.oldTime = global.time 
+global.time--;
+
+if (global.time &lt; 0)
+{
+global.time = 0;
+}
 
 alarm[0] = 60;
 </string>
@@ -83,7 +92,8 @@ alarm[0] = 60;
             <kind>1</kind>
             <string>draw_set_color(c_black);
 draw_text(view_xview + 10, view_yview + 10, "Wave" + string(global.wave));
-draw_text(view_xview + view_wview - 140 , view_yview + 10, "Next Wave In" + string(time))
+draw_text(view_xview + view_wview - 140 , view_yview + 10, "Next Wave In" + string(global.time))
+draw_text(view_xview + view_wview - 140 , view_yview + 20, "enemys" + string(global.enemys))
 </string>
           </argument>
         </arguments>

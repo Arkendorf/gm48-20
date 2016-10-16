@@ -45,7 +45,12 @@
     <sprite>sprites\spr_bitparticle</sprite>
     <sprite>sprites\spr_bandit</sprite>
     <sprite>sprites\spr_enemybullet</sprite>
-    <sprite>sprites\spr_curser</sprite>
+    <sprites name="spr_uigroup">
+      <sprite>sprites\spr_button</sprite>
+      <sprite>sprites\spr_healthbarboarder</sprite>
+      <sprite>sprites\spr_healthbar</sprite>
+      <sprite>sprites\spr_health</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

@@ -90,14 +90,9 @@
       <object>objects\obj_bandit</object>
       <object>objects\obj_rifleman</object>
       <object>objects\obj_desparado</object>
-      <object>objects\obj_horseman1</object>
-      <object>objects\obj_horseman2</object>
+      <object>objects\obj_horseman</object>
       <object>objects\obj_enemybullet</object>
-      <object>objects\obj_spawnerbandit</object>
-      <object>objects\obj_spawnerrifleman</object>
-      <object>objects\obj_spawnerdesparado</object>
-      <object>objects\obj_spawnerhorseman1</object>
-      <object>objects\obj_spawnerhorseman2</object>
+      <object>objects\obj_spawner</object>
     </objects>
     <object>objects\obj_wave</object>
   </objects>

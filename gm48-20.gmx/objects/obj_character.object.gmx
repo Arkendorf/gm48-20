@@ -482,6 +482,7 @@ playsound = false
             shoot = false;
             bullets -= 1;
             instance_create(x, y, obj_smokeparticle);
+            audio_play_sound(Bullet,1,false)
             }
         }
     else
@@ -494,17 +495,12 @@ playsound = false
             shoot = false;
             hellbullets -= 1;
             instance_create(x, y, obj_smokeparticle);
+            audio_play_sound(Flame,2,false)
+            audio_play_sound(Hawk,3,false)
             }
         }
     }
     
-
-audio_play_sound(Bullet,1,false)
-if (global.gun == 2)
-{
-audio_play_sound(Flame,2,false)
-audio_play_sound(Hawk,3,false)
-}
 </string>
           </argument>
         </arguments>

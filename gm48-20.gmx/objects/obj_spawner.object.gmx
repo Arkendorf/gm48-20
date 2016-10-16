@@ -29,10 +29,10 @@
 spawnRate = random_range((room_speed),(room_speed*3));
 alarm[0] = spawnRate;
 type = 1;
-slowness = 2;
+slowness = 3;
 openSpeed = 0.5;
-rarity[0] = 5;
-rarity[1] = 7;
+rarity[0] = 7;
+rarity[1] = 9;
 if (y &lt; room_height / 2) facing = 1;
 else facing = -1;
 </string>

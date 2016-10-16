@@ -28,13 +28,22 @@
             <string>realY = irandom_range(320, 512);
 y = realY
 x = irandom_range(0, 1) * room_width;
-if (x &gt; 0) direction = 180;
-else direction = 0;
+if (x &gt; 0) 
+{
+direction = 180;
+sprite_index = spr_horse2;
+}
+else 
+{
+direction = 0;
+sprite_index = spr_horse1;
+}
+image_speed = 0.3;
 speed = 4;
 yoffset = 0;
 yV = -10;
 secondJump = false;
-hp = 100
+hp = 100;
 </string>
           </argument>
         </arguments>
@@ -109,7 +118,7 @@ yoffset = -1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 50
+            <string>hp -= 25
 
 if (hp &lt;= 0)
 {

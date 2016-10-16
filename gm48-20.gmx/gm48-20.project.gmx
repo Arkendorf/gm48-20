@@ -64,6 +64,26 @@
       <sprite>sprites\spr_charright</sprite>
       <sprite>sprites\spr_charback</sprite>
     </sprites>
+    <sprite>sprites\spr_horse1</sprite>
+    <sprite>sprites\spr_horse2</sprite>
+    <sprites name="spr_bandit">
+      <sprite>sprites\spr_banditleft</sprite>
+      <sprite>sprites\spr_banditfront</sprite>
+      <sprite>sprites\spr_banditback</sprite>
+      <sprite>sprites\spr_banditright</sprite>
+    </sprites>
+    <sprites name="spr_desperado">
+      <sprite>sprites\spr_despback</sprite>
+      <sprite>sprites\spr_despfront</sprite>
+      <sprite>sprites\spr_despleft</sprite>
+      <sprite>sprites\spr_despright</sprite>
+    </sprites>
+    <sprites name="spr_rifle">
+      <sprite>sprites\spr_rifleback</sprite>
+      <sprite>sprites\spr_riflefront</sprite>
+      <sprite>sprites\spr_rifleleft</sprite>
+      <sprite>sprites\spr_rifleright</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

@@ -37,8 +37,32 @@ bullets = 6;
 hellbullets = 6;
 reloadSpeed = 3;
 hellRecharge = 3;
-global.hp = 10
+global.hp = 100
+playsound = true
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>playsound = true
 </string>
           </argument>
         </arguments>
@@ -186,14 +210,21 @@ view_yview = clamp(y - view_hview / 2, 0, room_height - view_hview);
           <argument>
             <kind>1</kind>
             <string>if (global.gun = 1)
+{
+    if (bullets &lt; 1 and alarm[1] &lt; 0) 
     {
-    if (bullets &lt; 1 and alarm[1] &lt; 0) alarm[1] = room_speed * reloadSpeed;
+    alarm[1] = room_speed * reloadSpeed 
+    audio_play_sound(reload,1,false)
     }
+}
 
 if (hellbullets &lt; 6 and alarm[2] &lt; 1)
     {
     alarm[2] = room_speed * hellRecharge;
+    audio_play_sound(Flame,1,false)
     }
+    
+
 </string>
           </argument>
         </arguments>
@@ -257,6 +288,52 @@ global.hp = 0
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_horseman">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.hp -= 4*room_speed
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_desparado">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.hp -= 1*room_speed
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="5" enumb="87">
       <action>
         <libid>1</libid>
@@ -275,6 +352,13 @@ global.hp = 0
           <argument>
             <kind>1</kind>
             <string>yV -= walkSpeed;
+
+if (playsound == true)
+{
+alarm[3] = room_speed/2
+audio_play_sound(Footstep,1,false)
+playsound = false
+}
 </string>
           </argument>
         </arguments>
@@ -298,6 +382,13 @@ global.hp = 0
           <argument>
             <kind>1</kind>
             <string>yV += walkSpeed;
+
+if (playsound == true)
+{
+alarm[3] = room_speed/2
+audio_play_sound(Footstep,1,false)
+playsound = false
+}
 </string>
           </argument>
         </arguments>
@@ -321,6 +412,13 @@ global.hp = 0
           <argument>
             <kind>1</kind>
             <string>xV += walkSpeed;
+
+if (playsound == true)
+{
+alarm[3] = room_speed/2
+audio_play_sound(Footstep,1,false)
+playsound = false
+}
 </string>
           </argument>
         </arguments>
@@ -344,6 +442,13 @@ global.hp = 0
           <argument>
             <kind>1</kind>
             <string>xV -= walkSpeed;
+
+if (playsound == true)
+{
+alarm[3] = room_speed/2
+audio_play_sound(Footstep,1,false)
+playsound = false
+}
 </string>
           </argument>
         </arguments>
@@ -392,6 +497,14 @@ global.hp = 0
             }
         }
     }
+    
+
+audio_play_sound(Bullet,1,false)
+if (global.gun == 2)
+{
+audio_play_sound(Flame,2,false)
+audio_play_sound(Hawk,3,false)
+}
 </string>
           </argument>
         </arguments>
@@ -438,6 +551,27 @@ global.hp = 0
           <argument>
             <kind>1</kind>
             <string>if (alarm[1] = - 1) alarm[1] = room_speed * reloadSpeed;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_play_sound(reload,1,false)
 </string>
           </argument>
         </arguments>

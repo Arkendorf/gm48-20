@@ -52,10 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_button" x="160" y="160" name="inst_F5C3B952" locked="0" code="text = &quot;Start&quot;;&#xA;action = 0;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="160" y="256" name="inst_2A382BB0" locked="0" code="text = &quot;Tutorial&quot;;&#xA;action = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="160" y="352" name="inst_B5C4455B" locked="0" code="text = &quot;Options&quot;;&#xA;action = 2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="160" y="448" name="inst_F442D0DD" locked="0" code="text = &quot;Leader Board&quot;;&#xA;action = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="160" y="544" name="inst_40793234" locked="0" code="text = &quot;Quit&quot;;&#xA;action = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button" x="160" y="256" name="inst_40793234" locked="0" code="text = &quot;Quit&quot;;&#xA;action = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -30,6 +30,7 @@ global.time = 18 + (global.wave*2);
 global.spawn_rateU = 50;
 global.enemys = 0
 global.oldTime = 0
+global.pscore = 0
 alarm[0] = 60;
 </string>
           </argument>
@@ -58,6 +59,7 @@ alarm[0] = 60;
 global.time = 18 + (global.wave*2);
 global.wave++;
 global.spawn_rateU -=5;
+global.pscore += 10;
 }else 
 global.oldTime = global.time 
 global.time--;
@@ -91,6 +93,7 @@ alarm[0] = 60;
           <argument>
             <kind>1</kind>
             <string>if (global.enemys &lt; 0) global.enemys = 0;
+
 </string>
           </argument>
         </arguments>
@@ -118,8 +121,9 @@ draw_set_color(c_black);
 draw_text(1360,32, "Wave " + string(global.wave));
 draw_text(1360,64, "Next Wave In " + string(global.time));
 draw_text(1360,96, "enemies " + string(global.enemys));
+draw_text(1360,128, "Score " + string(global.pscore));
 
-draw_sprite_ext(spr_healthbar, 0, 15, 15, global.hp/10, 1, 0, c_white, 1);
+draw_sprite_ext(spr_healthbar, 0, 15, 15, global.hp/100, 1, 0, c_white, 1);
 draw_sprite(spr_healthbarboarder, 0, 15, 15);
 </string>
           </argument>

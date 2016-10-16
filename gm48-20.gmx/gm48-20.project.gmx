@@ -5,12 +5,12 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\Hawk</sound>
-    <sound>sound\Bullet</sound>
     <sound>sound\Footstep</sound>
     <sound>sound\Flame</sound>
     <sound>sound\reload</sound>
     <sound>sound\tick</sound>
+    <sound>sound\Bullet</sound>
+    <sound>sound\Hawk</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_tumbleweed</sprite>
@@ -69,6 +69,7 @@
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_button</font>
+    <font>fonts\fnt_gameover</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_tumbleweed</object>
@@ -121,6 +122,7 @@
       <object>objects\obj_wave</object>
       <object>objects\obj_button</object>
       <object>objects\obj_pause</object>
+      <object>objects\obj_gameover</object>
     </objects>
   </objects>
   <rooms name="rooms">

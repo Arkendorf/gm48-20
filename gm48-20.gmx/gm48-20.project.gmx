@@ -45,9 +45,13 @@
     <sprite>sprites\spr_bitparticle</sprite>
     <sprite>sprites\spr_bandit</sprite>
     <sprite>sprites\spr_enemybullet</sprite>
+    <sprite>sprites\spr_curser</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_button</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_tumbleweed</object>
     <object>objects\obj_character</object>
@@ -95,9 +99,14 @@
       <object>objects\obj_spawner</object>
     </objects>
     <object>objects\obj_wave</object>
+    <object>objects\obj_button</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_level</room>
+    <room>rooms\rm_options</room>
+    <room>rooms\rm_tutorial</room>
+    <room>rooms\rm_leaderboard</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -112,6 +112,7 @@ if (oldbullets &lt; obj_character.bullets)
     
 oldhellbullets = obj_character.hellbullets;
 oldbullets = obj_character.bullets;
+
 </string>
           </argument>
         </arguments>

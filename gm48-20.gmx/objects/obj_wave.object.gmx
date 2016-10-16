@@ -96,7 +96,7 @@ alarm[0] = 60;
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -115,12 +115,12 @@ alarm[0] = 60;
             <kind>1</kind>
             <string>draw_set_font(fnt_button);
 draw_set_color(c_black);
-draw_text(view_xview + view_wview - 70 , view_yview + 32, "Wave " + string(global.wave));
-draw_text(view_xview + view_wview - 70 , view_yview + 64, "Next Wave In " + string(global.time));
-draw_text(view_xview + view_wview - 70 , view_yview + 96, "enemies " + string(global.enemys));
+draw_text(1360,32, "Wave " + string(global.wave));
+draw_text(1360,64, "Next Wave In " + string(global.time));
+draw_text(1360,96, "enemies " + string(global.enemys));
 
-draw_sprite_ext(spr_healthbar, 1, view_xview + 15, view_yview+ 15, global.hp/10, 1, 0, c_white, 1);
-draw_sprite(spr_healthbarboarder, 1, view_xview + 15, view_yview + 15);
+draw_sprite_ext(spr_healthbar, 0, 15, 15, global.hp/10, 1, 0, c_white, 1);
+draw_sprite(spr_healthbarboarder, 0, 15, 15);
 </string>
           </argument>
         </arguments>

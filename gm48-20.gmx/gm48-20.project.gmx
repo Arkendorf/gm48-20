@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_tumbleweed</sprite>
     <sprite>sprites\spr_character</sprite>
     <sprite>sprites\spr_playerbullet</sprite>
     <sprites name="ammocount">
@@ -34,15 +35,19 @@
       <sprite>sprites\spr_ornament2</sprite>
       <sprite>sprites\spr_fence1</sprite>
       <sprite>sprites\spr_fence2</sprite>
-      <sprite>sprites\spr_emptytrans</sprite>
       <sprite>sprites\spr_sand</sprite>
+      <sprite>sprites\spr_rut</sprite>
+      <sprite>sprites\spr_cactus1</sprite>
+      <sprite>sprites\spr_cactus2</sprite>
     </sprites>
-    <sprite>sprites\spr_bandit</sprite>
-    <sprite>sprites\spr_enemybullet</sprite>
+    <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_smokeparticle</sprite>
+    <sprite>sprites\spr_bitparticle</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_tumbleweed</object>
     <object>objects\obj_character</object>
     <object>objects\obj_playerbullet</object>
     <object>objects\obj_ammocount</object>
@@ -70,23 +75,15 @@
       <object>objects\obj_border2</object>
       <object>objects\obj_fence1</object>
       <object>objects\obj_fence2</object>
-      <object>objects\obj_emptytrans</object>
       <object>objects\obj_sand</object>
+      <object>objects\obj_rut</object>
+      <object>objects\obj_cactus1</object>
+      <object>objects\obj_cactus2</object>
     </objects>
-    <objects name="obj_aigroup">
-      <object>objects\obj_bandit</object>
-      <object>objects\obj_desparado</object>
-      <object>objects\obj_rifleman</object>
-      <object>objects\obj_horseman1</object>
-      <object>objects\obj_horseman2</object>
-      <object>objects\obj_enemybullet</object>
-      <object>objects\obj_spawnerbandit</object>
-      <object>objects\obj_spawnerrifleman</object>
-      <object>objects\obj_spawnerdesparado</object>
-      <object>objects\obj_spawnerhorseman1</object>
-      <object>objects\obj_spawnerhorseman2</object>
-    </objects>
-    <object>objects\obj_wave</object>
+    <object>objects\obj_loop</object>
+    <object>objects\obj_fireparticle</object>
+    <object>objects\obj_smokeparticle</object>
+    <object>objects\obj_bitparticle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>

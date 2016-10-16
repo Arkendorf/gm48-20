@@ -159,8 +159,8 @@ else
 xV *= 0.8;   
 yV *= 0.8;
 
-view_xview = x - view_wview / 2;
-view_yview = y - view_hview / 2;
+view_xview = clamp(x - view_wview / 2, 0, room_width - view_wview);
+view_yview = clamp(y - view_hview / 2, 0, room_height - view_hview);
 
 
 </string>
@@ -316,16 +316,19 @@ if (hellbullets &lt; 6 and alarm[2] &lt; 1)
             alarm[0] = room_speed * shootSpeed;
             shoot = false;
             bullets -= 1;
+            instance_create(x, y, obj_smokeparticle);
             }
         }
     else
         {
         if (hellbullets &gt; 0)
             {
-            instance_create(x, y, obj_playerbullet);
+            inst = instance_create(x, y, obj_playerbullet);
+            with (inst) hell = true;
             alarm[0] = room_speed * shootSpeed / 2;
             shoot = false;
             hellbullets -= 1;
+            instance_create(x, y, obj_smokeparticle);
             }
         }
     }

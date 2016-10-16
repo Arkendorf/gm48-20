@@ -11,6 +11,7 @@
     <sound>sound\tick</sound>
     <sound>sound\Bullet</sound>
     <sound>sound\Hawk</sound>
+    <sound>sound\sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_tumbleweed</sprite>
@@ -144,6 +145,7 @@
       <object>objects\obj_pause</object>
       <object>objects\obj_gameover</object>
     </objects>
+    <object>objects\obj_sound</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

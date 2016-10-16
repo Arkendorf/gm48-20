@@ -58,6 +58,12 @@
       <sprite>sprites\spr_healthbar</sprite>
       <sprite>sprites\spr_health</sprite>
     </sprites>
+    <sprites name="spr_char">
+      <sprite>sprites\spr_charfront</sprite>
+      <sprite>sprites\spr_charleft</sprite>
+      <sprite>sprites\spr_charright</sprite>
+      <sprite>sprites\spr_charback</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

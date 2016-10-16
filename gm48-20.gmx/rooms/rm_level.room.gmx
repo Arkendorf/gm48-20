@@ -353,7 +353,6 @@ instance_create(0, 0, obj_ammocount);</code>
     <instance objName="obj_wall5" x="1024" y="608" name="inst_36671335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall5" x="1024" y="576" name="inst_9249662A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shingle" x="1024" y="544" name="inst_BA6BA9B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_8FCAFE66" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_sand" x="448" y="672" name="inst_49AF37EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sand" x="448" y="640" name="inst_C59CEF1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fence2" x="448" y="608" name="inst_778006A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1336,6 +1335,8 @@ instance_create(0, 0, obj_ammocount);</code>
     <instance objName="obj_emptytrans" x="1728" y="992" name="inst_5FA18BCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_emptytrans" x="1728" y="960" name="inst_196269FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_emptytrans" x="1728" y="928" name="inst_0D172269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wave" x="256" y="480" name="inst_335BEBFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawnerbandit" x="704" y="832" name="inst_84906900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

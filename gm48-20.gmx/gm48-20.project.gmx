@@ -85,6 +85,7 @@
       <sprite>sprites\spr_rifleleft</sprite>
       <sprite>sprites\spr_rifleright</sprite>
     </sprites>
+    <sprite>sprites\sprite57</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

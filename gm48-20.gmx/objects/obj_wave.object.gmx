@@ -117,13 +117,13 @@ alarm[0] = 60;
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt_button);
-draw_set_color(c_black);
-draw_text(1360,32, "Wave " + string(global.wave));
-draw_text(1360,64, "Next Wave In " + string(global.time));
-draw_text(1360,96, "enemies " + string(global.enemys));
-draw_text(1360,128, "Score " + string(global.pscore));
+draw_set_color(global.borderColor);
+draw_text(15,36, "Wave " + string(global.wave));
+draw_text(15,68, "Next Wave In " + string(global.time));
+draw_text(15,100, "enemies " + string(global.enemys));
+draw_text(15,132, "Score " + string(global.pscore));
 
-draw_sprite_ext(spr_healthbar, 0, 15, 15, global.hp/100, 1, 0, c_white, 1);
+draw_sprite_ext(spr_healthbar, 0, 15, 15, global.hp/175, 1, 0, c_white, 1);
 draw_sprite(spr_healthbarboarder, 0, 15, 15);
 </string>
           </argument>

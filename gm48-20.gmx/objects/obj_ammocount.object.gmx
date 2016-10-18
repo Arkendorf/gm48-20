@@ -101,6 +101,7 @@ reloaded = false;
     {
     newhellbullet = true;
     alarm[0] = room_speed;
+    audio_play_sound(Flame,2,false)
     }
     
 if (oldbullets &lt; obj_character.bullets)

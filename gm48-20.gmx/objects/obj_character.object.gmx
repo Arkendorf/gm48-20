@@ -35,9 +35,9 @@ shootSpeed = 0.5;
 global.gun = 1;
 bullets = 6;
 hellbullets = 6;
-reloadSpeed = 3;
-hellRecharge = 3;
-global.hp = 100
+reloadSpeed = 2;
+hellRecharge = 2;
+global.hp = 175;
 playsound = true
 
 </string>
